@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter_demo/core/error/exceptions.dart';
+import 'package:flutter_demo/core/network/network_info.dart';
 import 'package:meta/meta.dart';
 
 import '../../../../core/error/failures.dart';
-import '../../../../core/platform/network_info.dart';
 import '../../domain/entities/number_trivia.dart';
 import '../../domain/reopository/number_trivia_repository.dart';
 import '../datasources/number_trivia_local_data_source.dart';
